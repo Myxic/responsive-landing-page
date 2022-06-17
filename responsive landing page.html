@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100%;
+            position: absolute;
+        }
+        .container{
+            position: absolute;
+            background: white;
+            margin: auto;
+            padding: 30px;
+        }
+        main{
+            background: url(images/bg-hero-desktop.svg);
+            padding: 20px;
+        }
+        .heading2{
+            display: flex;
+            padding: 20px;
+        }
+        section{
+            display: flex;
+            margin: 30px;
+            padding: 10px;
+            box-shadow: 0px 0px 5px 0px rgba(44, 41, 41, 0.6);
+            border-radius: 10px 10px 10px 10px;
+        }
+        section > div{
+            padding: 50px;
+            border: 1px solid black;
+        }
+        section > div > p{
+            color: rgba(44, 41, 41, 0.8);
+        }
+        section > figure > img{
+            width: 500px;
+            height: 380px;
+        }
+        .heading2 > figure > img{
+            width: 630px;
+            height: 450px;
+            float: left;
+        }
+        button{
+            border-radius: 40px 40px 40px 40px;
+            border: transparent;
+            text-align: center;
+            padding: 10px;
+        }
+        .heading1 > img{
+                    height: 30px;
+        }
+        .heading2 > div > button{
+            background: rgb(173, 30, 73);
+        }
+        .heading1{
+            position: relative;
+        }
+        .butt1{
+            background: whitesmoke;
+            box-shadow: 0px 0px 3px 0px rgba(44, 41, 41, 0.6);
+            /* padding: 10px 40px 10px 40px; */
+            width: 150px;
+            text-align: center;
+            
+         
+        }
+       
+        .heading1 > span{
+            float: right;
+        
+        }
+        figure,section > div{
+            width: 40%;
+            margin: auto;
+            padding: 40px;
+        }
+        .foot0{
+            width: 100%;
+        }
+        .foot0, .foot2 , .foot3{
+            width: 100%;
+            margin: auto;
+        }
+        .foot0, .foot2 , .foot3 > ul{
+            display: flex;
+            padding: 10px;
+        }
+        footer{
+            background: rgb(25, 82, 82);
+            display: flex;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div class="heading1">
+                <img src="images/logo.svg" alt="head" class="headimage">
+                <span>
+                    <button type="button" class="butt1"> Try it Free</button>
+                </span>
+            </div>
+            <div class="heading2">
+                
+                <div>
+                    <h1>Build The Community Your Fans Will Love</h1>
+                    <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connection with your users as you engage in genuine discussion.</p>
+                    <button type="button">Get Started For Free</button>
+                </div>
+                <figure>
+                <img src="images/illustration-mockups.svg" alt="first image">
+                </figure>
+            </div>
+        </main>
+        
+        <section class="section3">
+            <div>
+                <h2>Grow Together</h2>
+                <p>Generate meaningful discussion with your audience and build a strong loyal community. Think of the insightful conversation you miss out on with a feedback form</p>
+            </div>
+            <figure>
+                <img src="images/illustration-grow-together.svg" alt="second image" sizes="">
+            </figure>
+        </section>
+        <section class="section4">
+            <figure>
+                <img src="images/illustration-flowing-conversation.svg" alt="third image">
+            </figure>
+            <div>
+                <h2>Flowing Conversations</h2>
+                <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+            </div>
+
+        </section>
+        <section>
+            <div>
+                <h2>Your Users</h2>
+                <p>it takes no time at all to integrate Huddle with your app's authentication solution. this means, once signed in to yoiur app, your user can start chatting immediately.</p>
+            </div>
+            <figure>
+                <img src="images/illustration-your-users.svg" alt="image4">
+            </figure>
+        </section>
+        <div class="beforefoot">
+            <h2>Ready To Build Your Coummunity</h2>
+            <button type="button"> Get Started For Free</button>
+        </div>
+    <footer>
+        <div class="foot0">
+        <div class="foot1">
+            <figure>
+                <img src="" alt="Huddle">
+            </figure>
+            <img src="" alt="location">
+            <p id="lore">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed rem reprehenderit, eveniet maiores ducimus possimus praesentium dolore in assumenda perferendis! Expedita ea voluptate obcaecati asperiores incidunt reprehenderit laudantium, cumque maxime?</p>
+            <label for="phone"><img src="" alt="phone"></label>
+            <p id="phone">+1-543-123-4567</p>
+            <label for="email"><img src="" alt="email"></label>
+            <p id="email">example@huddle.com</p>
+
+        </div>
+        <div class="foot2">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">What We Do</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="foot3">
+            <ul>
+                <li><a href="#"><img src="" alt="facebook" sizes=""></a></li>
+                <li><a href="#"><img src="" alt="facebook" sizes=""></a></li>
+                <li><a href="#"><img src="" alt="facebook" sizes=""></a></li>
+            </ul>
+            <span>
+                Copyright 2018 Huddle.All right reserved
+            </span>
+        </div>
+    </div>
+    
+    </footer>
+    </div>
+</body>
+</html>
