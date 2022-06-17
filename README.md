@@ -1,2 +1,2 @@
-# single-page responsive registration
+# responsive landing page
  zuri'task
