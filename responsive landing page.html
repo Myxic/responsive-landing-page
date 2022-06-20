@@ -4,48 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>No 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap" rel="stylesheet"> 
+    
     <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;         
+        }
         body{
-            width: 100%;
-            position: absolute;
+            justify-content: center;
         }
         .container{
-            position: absolute;
             background: white;
-            margin: auto;
-            padding: 30px;
+            background-size: cover;
+            width: 100%;
+            /* padding: 30px; */
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
         }
         main{
+            
             background: url(images/bg-hero-desktop.svg);
-            padding: 20px;
+            background-color:  hsl(191, 26%, 72%);
+            padding: 30px;
+            width: 100%;
         }
-        .heading2{
-            display: flex;
-            padding: 20px;
+        .heading1  img{
+            padding-left: 5%;
+            height: 30px;
+
         }
-        section{
-            display: flex;
-            margin: 30px;
-            padding: 10px;
-            box-shadow: 0px 0px 5px 0px rgba(44, 41, 41, 0.6);
-            border-radius: 10px 10px 10px 10px;
+        .heading1{
+            display:flex;
+            flex-wrap: wrap;
         }
-        section > div{
-            padding: 50px;
-            border: 1px solid black;
+        
+        h2, h1{
+            font-family: 'Poppins', sans-serif;
         }
-        section > div > p{
-            color: rgba(44, 41, 41, 0.8);
-        }
-        section > figure > img{
-            width: 500px;
-            height: 380px;
-        }
-        .heading2 > figure > img{
-            width: 630px;
-            height: 450px;
-            float: left;
+        h1{
+            font-size: 40px;
         }
         button{
             border-radius: 40px 40px 40px 40px;
@@ -53,49 +56,244 @@
             text-align: center;
             padding: 10px;
         }
-        .heading1 > img{
-                    height: 30px;
+        .heading2  div  button{
+            margin: 20px;
+            background: hsl(322, 100%, 66%);
+            box-shadow: 0px 0px 5px 0px rgba(44, 41, 41, 0.6);
+            width: 70%;
+            color: white;
+            letter-spacing: 1px;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 20px 40px 20px 40px;
+            text-align: center;
         }
-        .heading2 > div > button{
-            background: rgb(173, 30, 73);
-        }
-        .heading1{
-            position: relative;
+        .heading2  div  button:hover{
+            background-color: crimson; 
+                       
         }
         .butt1{
             background: whitesmoke;
-            box-shadow: 0px 0px 3px 0px rgba(44, 41, 41, 0.6);
-            /* padding: 10px 40px 10px 40px; */
+            box-shadow: 0px 0px 5px 0px rgba(44, 41, 41, 0.6);
+            padding: 10px 40px 10px 40px; 
             width: 150px;
+            height:40px;
             text-align: center;
             
-         
+           
         }
-       
-        .heading1 > span{
-            float: right;
-        
+        .butt1:hover{
+            background-color: gray;
+            color: white;
         }
-        figure,section > div{
-            width: 40%;
-            margin: auto;
-            padding: 40px;
+        .div1{
+            width: 90%;
         }
-        .foot0{
+        .div2{
+            width: 10%;
+        }
+        .div3{
+            width: 50%;
+            padding: 5%;
+            font-size: 24px;
+        }
+        .div4{
+            width: 50%;
+        }
+        .div4 img{
             width: 100%;
-        }
-        .foot0, .foot2 , .foot3{
-            width: 100%;
-            margin: auto;
-        }
-        .foot0, .foot2 , .foot3 > ul{
+         }
+        .heading2{
             display: flex;
             padding: 10px;
+        }
+        section{
+            width: 90%;
+            display: flex;
+            margin: 5% auto;
+            padding: 30px;
+            box-shadow: 0px 0px 5px 0px rgba(44, 41, 41, 0.6);
+            border-radius: 10px 10px 10px 10px;
+        }
+        .img{
+            width: 40%;
+        }
+        .txt{
+            width:60%;
+            padding: 50px;
+            font-size: 20px;
+            margin: auto;
+        }
+        .txt .thn1,
+        .txt .thn {
+            padding-right: 30%;
+            padding-left:10% ;
+        }
+        .txt .ths1,
+        .txt .ths{
+            padding-left: 30%;
+            padding-right:10% ;
+        }
+        section  div  p{
+            color: rgba(44, 41, 41, 0.8);
+        }
+        section  .img  img{
+            width: 90%;          
+        }
+        .beforefoot{
+            margin: auto;
+            width: 40%;
+            padding: 5%;
+            box-shadow: 0px 0px 5px 0px rgba(44, 41, 41, 0.6);
+            border-radius: 10px 10px 10px 10px;
+            text-align: center;
+            background-color: white;
+            position: relative;
+            top: 100px;
+            
+
+        }
+        .beforefoot button{
+            padding: 3%;
+            width: 40%;
+            color: white;
+            background-color: hsl(322, 100%, 66%);        
+        }
+        .beforefoot button:hover{
+            color: black;
+            background-color: deeppink;
         }
         footer{
             background: rgb(25, 82, 82);
             display: flex;
+            color: white;
+            width: 100%;
         }
+        ul  li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+        }
+        a:hover{
+            color: blue;
+        }
+        .foot1,
+        .foot2,
+        .foot21,
+        .foot3{
+            width: 20%;
+            padding: 30px;
+            margin: auto;
+        }
+        .foot3  ul{
+            display: flex;
+            padding: 20px;
+        }
+        .foot0{
+            width: 100%;
+        }
+        .lore1{
+            
+            width: 100px;
+        }
+        .lore2{
+            width: 20%;
+            text-align: center;
+        }
+        .lore3{
+            width: auto;
+        }
+        .lore{
+            width: 70%;          
+        }
+        table, .lore1{
+            padding: 10px;
+        }
+    
+        .foot3  ul  li{
+            margin: 15px;
+        }
+        .last{
+            position: relative;
+            top: 100px;
+        }
+        
+        @media (max-width:700px){
+            *{
+                max-width: 100%;
+            }
+        .container{
+            max-width: 100%;
+        }
+        .heading2{
+            display: block;
+        }
+        .div1{
+            width: 70%;
+        }
+        .div2{
+           
+            width: 30%;
+          
+        }
+        .img{
+            width: 100%;
+            margin: 10px auto;
+        }
+        .div3, .div4{
+            width: 100%;
+        }
+        .div3 button{
+            width: 100%;
+        }
+        section {
+            display: block;
+            text-align: center;
+
+        }
+        .txt{
+            padding: 5px;
+            width: 100%;
+            margin: 30px auto;
+            text-align: center;
+            height: 200px;
+        }
+        section div{
+            width: 100%;
+        }
+        .beforefoot{
+            width: 95%;
+        }
+        footer{
+            display: block;
+        }
+        table{
+            width: 100%;
+           
+        }
+        
+       
+        footer, .foot2{
+            display: block;
+        }
+        .foot1,
+        .foot2,
+        .foot21,
+        .foot3{
+            width: 100%;
+            }
+            .lore3{
+                width: auto;
+            }
+            .last{
+                position: relative;
+                top: 20px;
+            }
+        }
+        
  
     </style>
 </head>
@@ -103,68 +301,82 @@
     <div class="container">
         <main>
             <div class="heading1">
+                <div class="div1">
                 <img src="images/logo.svg" alt="head" class="headimage">
-                <span>
+            </div>
+            <div class="div2">
                     <button type="button" class="butt1"> Try it Free</button>
-                </span>
+                </div>
             </div>
             <div class="heading2">
                 
-                <div>
+                <div class="div3">
                     <h1>Build The Community Your Fans Will Love</h1>
                     <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connection with your users as you engage in genuine discussion.</p>
                     <button type="button">Get Started For Free</button>
                 </div>
-                <figure>
-                <img src="images/illustration-mockups.svg" alt="first image">
-                </figure>
+                <div class="div4">
+                    <img src="images/illustration-mockups.svg" alt="first image">
+                </div>
             </div>
         </main>
         
         <section class="section3">
-            <div>
-                <h2>Grow Together</h2>
-                <p>Generate meaningful discussion with your audience and build a strong loyal community. Think of the insightful conversation you miss out on with a feedback form</p>
+            <div class="txt">
+                <h2 class="thn1">Grow Together</h2>
+                <p class="thn">Generate meaningful discussion with your audience and build a strong loyal community. Think of the insightful conversation you miss out on with a feedback form</p>
             </div>
-            <figure>
+            <div class="img">
                 <img src="images/illustration-grow-together.svg" alt="second image" sizes="">
-            </figure>
+            </div>
         </section>
         <section class="section4">
-            <figure>
+            <div class="img">
                 <img src="images/illustration-flowing-conversation.svg" alt="third image">
-            </figure>
-            <div>
-                <h2>Flowing Conversations</h2>
-                <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+            </div>
+            <div class="txt">
+                <h2 class="ths1">Flowing Conversations</h2>
+                <p class="ths">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
             </div>
 
         </section>
         <section>
-            <div>
-                <h2>Your Users</h2>
-                <p>it takes no time at all to integrate Huddle with your app's authentication solution. this means, once signed in to yoiur app, your user can start chatting immediately.</p>
+            <div class="txt">
+                <h2 class="thn1">Your Users</h2>
+                <p class="thn">it takes no time at all to integrate Huddle with your app's authentication solution. this means, once signed in to yoiur app, your user can start chatting immediately.</p>
             </div>
-            <figure>
+            <div class="img">
                 <img src="images/illustration-your-users.svg" alt="image4">
-            </figure>
+            </div>
         </section>
         <div class="beforefoot">
             <h2>Ready To Build Your Coummunity</h2>
             <button type="button"> Get Started For Free</button>
         </div>
     <footer>
-        <div class="foot0">
         <div class="foot1">
-            <figure>
-                <img src="" alt="Huddle">
-            </figure>
-            <img src="" alt="location">
-            <p id="lore">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed rem reprehenderit, eveniet maiores ducimus possimus praesentium dolore in assumenda perferendis! Expedita ea voluptate obcaecati asperiores incidunt reprehenderit laudantium, cumque maxime?</p>
-            <label for="phone"><img src="" alt="phone"></label>
-            <p id="phone">+1-543-123-4567</p>
-            <label for="email"><img src="" alt="email"></label>
-            <p id="email">example@huddle.com</p>
+            <table>
+                <tr>
+                <img src="./images/logo.svg" alt="Huddle" class="lore1">
+                </tr>
+                <tr>
+                    <td class="lore2"><img src="./images/icon-location.svg" alt="location" class="lore3"></td>
+                    <td class="lore"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed rem reprehenderit, Expedita ea?</td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td class="lore2"><img src="./images/icon-phone.svg"  alt="phone"></td>
+                    <td class="lore">+1-543-123-4567</td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td class="lore2"><img src="./images/icon-email.svg" alt="email"></td>
+                    <td class="lore">example@huddle.com</td>
+                </tr>
+            
+            </table>
 
         </div>
         <div class="foot2">
@@ -173,6 +385,8 @@
                 <li><a href="#">What We Do</a></li>
                 <li><a href="#">FAQ</a></li>
             </ul>
+        </div>
+        <div class="foot21">
             <ul>
                 <li><a href="#">Career</a></li>
                 <li><a href="#">Blog</a></li>
@@ -181,17 +395,18 @@
         </div>
         <div class="foot3">
             <ul>
-                <li><a href="#"><img src="" alt="facebook" sizes=""></a></li>
-                <li><a href="#"><img src="" alt="facebook" sizes=""></a></li>
-                <li><a href="#"><img src="" alt="facebook" sizes=""></a></li>
+                <li><a href="#"><img src="./images/facebook-brands.svg" alt="facebook" sizes=""></a></li>
+                
+                <li><a href="#"><img src="./images/twitter-square-brands.svg" alt="twitter" sizes=""></a></li>   
+                <li><a href="#"><img src="./images/instagram-square-brands.svg" alt="instargram" sizes=""></a></li>
             </ul>
-            <span>
-                Copyright 2018 Huddle.All right reserved
+            <span class="last">
+                &copy; Copyright 2018 Huddle.All right reserved
             </span>
         </div>
-    </div>
     
     </footer>
     </div>
 </body>
 </html>
+
