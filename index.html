@@ -33,6 +33,21 @@
             background-color:  hsl(191, 26%, 72%);
             padding: 30px;
             width: 100%;
+            animation: heading;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+        } 
+        @keyframes heading{
+        0%{
+            background: white;
+            left: 0px;
+            top: -50px;
+        }
+        100%{
+            left: 0px;
+            top: 200px;
+            }
+
         }
         .heading1  img{
             padding-left: 5%;
@@ -246,6 +261,9 @@
         .div3, .div4{
             width: 100%;
         }
+        .div3{
+           text-align: center;
+        }
         section {
             display: block;
             text-align: center;
@@ -258,6 +276,17 @@
             text-align: center;
     
         }
+        .txt .thn1,
+        .txt .thn {
+            padding-right: 0;
+            padding-left:0 ;
+        }
+        .txt .ths1,
+        .txt .ths{
+            padding-left: 0;
+            padding-right:0 ;
+        }
+
         .butt1{
             width: auto;
             padding: 10px;     
@@ -299,6 +328,12 @@
             .lore3{
                 width: auto;
             }
+            .lore,
+            .lore2{
+            width: auto;
+            padding: 5px;
+            }
+
             .last{
                 position: relative;
                 top: 0;
